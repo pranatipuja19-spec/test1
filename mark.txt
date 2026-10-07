@@ -1,3 +1,5 @@
 a = int(input("enter a number :"))
 if a%2 == 0
-print("The number is even")
+print("The number is even") # to know ehether the num is even
+elif a%2!=0:
+    print("a is odd") # to know wether the num is odd
